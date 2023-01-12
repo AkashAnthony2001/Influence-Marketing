@@ -100,20 +100,22 @@ body{
 }
 .container{
     display:flex;
+    background-image: url("assets/images/firs-back.png");
 }
 .main-text{
-    width:35%;
+    width:40%;
     font-size:30px;
     font-weight:900;
     box-sizing:border-box;
     line-height: 0.5;
     margin:50px 0px 0px 20px;
+    
 }
 .first-back{
-    width:65%;
+    width:60%;
 }
 .first-back img{
-    width:50%;
+    width:100%;
     
 }
 .text{
