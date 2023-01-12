@@ -9,9 +9,8 @@ body{
 }
 .header{
     padding:10px;
-    width:calc(100% - 32px);
-    
-    margin:5px;
+    width:calc(100% - 20px);
+    margin:auto;
     font-size:10px;
     display:flex;
     color:white;
@@ -43,8 +42,8 @@ body{
 }
 .navigation{
     padding:10px;
-    width:calc(100% - 32px);
-    margin:5px;
+    width:calc(100% - 20px);
+    margin:auto;
     font-size:10px;
     display:flex;
     color:white;
@@ -56,6 +55,7 @@ body{
 }
 .seo-account{
     padding:10px;
+    text-align: right;
     width:calc(25% - 20px);
     font-size:10px;
     margin:auto;
@@ -67,6 +67,7 @@ body{
     color:white;
     font-size:14px;
     border:none;
+    
 
 }
 .seo-button:hover{
@@ -128,11 +129,11 @@ body{
 .extra{
     width:calc(50% - 20px);
     color:white;
-    margin:0px 0px 0px 20px;
+    margin:10px 0px 0px 20px;
     font-size:14px;
 }
 .know{
-    margin:20px 0px 0px 20px;
+    
     width:calc(15% - 20px);
     padding:10px;
     border-radius:20px;
@@ -141,9 +142,14 @@ body{
     background-color:transparent;
     font-weight:bolder;
 }
-.know:hover{
-    border:3px solid #ffa824;
+.knowmore{
+    margin:20px 0px 0px 20px;
     color:white;
-    background-color:#ffa824;
+    
+    
+    
+}
+.main{
+    background-image:url("assets/images/first-back.png");
     
 }
