@@ -214,7 +214,7 @@ body{
     font-weight:bolder;
 }
 .text-two {
-    color:#0458e9;
+    color:#100739;
     font-weight:bold;
     font-size:20px;
 }
@@ -243,7 +243,7 @@ body{
 
 }
 .web-img{
-    width:calc(40% - 80px);
+    width:calc(45% - 80px);
     padding:60px 20px;
 }
 .web-img img{
@@ -252,14 +252,16 @@ body{
     
 }
 .web-text{
-    width:calc(60% - 20px);
-    padding:10px;
+    width:calc(55% - 20px);
+    padding:40px;
 }
 .txt-one{
     color:#0458e9;
 }
 .txt-two{
-    color:#0458e9
+    color: #100739;
+    font-size:23px;
+    font-weight:bolder;
 }
 .txt-three{
     font-size:15px;
@@ -268,13 +270,30 @@ body{
 .txt-four{
     display:flex;
     padding:20px ;
-    border:1px solid black;
+    text-align:center;
+    width:calc(100% - 100px);
+    margin:20px 40px;
+    line-height: 0.5;
 }
 .cust{
-    border:1px solid black;
-    padding:20px;
+    width:33.3%;
 }
 .project{
-    border:1px solid black;
-    padding:20px;
+    width:33.3%;
+}
+.exp{
+    
+    width:33.3%;
+}
+.num{
+    font-size:30px;
+    font-weight: 900;
+    color:#0046a0;
+}
+.section-four{
+    background-color:#0046a0;
+    background-image:url("assets/images/secfour-back.png");
+}
+.main-content{
+    padding:10px;
 }
