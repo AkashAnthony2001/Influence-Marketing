@@ -144,12 +144,54 @@ body{
 }
 .knowmore{
     margin:20px 0px 0px 20px;
-    color:white;
-    
-    
-    
+    color:white; 
 }
 .main{
     background-image:url("assets/images/first-back.png");
     
+}
+.section-two{
+    width:calc(100% - 2px);
+    background-color:white;
+    
+    border:1px solid white;
+}
+.four-divs{
+    display:flex;
+    text-align:center;
+}
+.seo{
+    
+    width:calc(25% - 100px);
+    padding:40px 60px;
+}
+.one{
+    background-color:#0046a0;
+    color:white;
+    margin:20px 0px 0px 0px;
+    border-radius:0px 0px 10px 0px;
+}
+.two{
+    background-color:#ffa824;
+    color:white;
+    margin:0px 0px 20px 0px;
+    border-radius:10px 10px 0px 0px;
+}
+.three{
+    background-color:#0046a0;
+    color:white;
+    border-radius:0px 0px 10px 10px;
+    margin:20px 0px 0px 0px;
+}
+.four{
+    background-color:#ffa824;
+    color:white;
+    border-radius:10px 0px 0px 0px;
+    margin:0px 0px 20px 0px;
+}
+.image{
+    width:30px;
+}
+.sectwo-main{
+    margin:40px 0px 0px 0px;
 }
