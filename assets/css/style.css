@@ -291,9 +291,25 @@ body{
     color:#0046a0;
 }
 .section-four{
-    background-color:#0046a0;
+    background-color:#0047a4;
+    width:calc(100% - 20px);
     background-image:url("assets/images/secfour-back.png");
+    padding:10px;
 }
 .main-content{
-    padding:10px;
+    width:calc(100% - 80px);
+    margin:40px 20px 0px 20px;
+}
+.cont-detail{
+    width:33.3%;
+    display:flex;
+}
+.content-one{
+    display:flex;
+}
+.content-two{
+    display:flex;
+}
+.cont-img{
+    width:60px;
 }
