@@ -297,8 +297,9 @@ body{
     padding:10px;
 }
 .main-content{
-    width:calc(100% - 80px);
+    width:calc(100% - 100px);
     margin:40px 20px 0px 20px;
+    padding:20px;
 }
 .cont-detail{
     width:33.3%;
@@ -309,7 +310,43 @@ body{
 }
 .content-two{
     display:flex;
+    margin:80px 0px 0px 0px;
 }
 .cont-img{
     width:60px;
+}
+.img-cont{
+    padding:0px 10px 0px 0px ;
+}
+.cont-text h5{
+    color:#ffa824;
+    font-weight:900;
+    margin:10px;
+}
+.cont-text p{
+    color:white;
+    margin:10px;
+    line-height: 1.5;
+}
+.horseimg{
+    width:100%;
+    text-align: center;
+}
+.horseimg img{
+    width:50%;
+}
+.section-five{
+    background-color: white;
+}
+.dig-mark{
+    text-align: center;
+    width:100%;
+    margin:40px;
+}
+.dig-mark h6{
+    color:#0458e9;
+}
+.dig-mark h2{
+    color:#100739;
+    font-weight: 900;;
 }
