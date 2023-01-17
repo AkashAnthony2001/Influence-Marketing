@@ -340,8 +340,8 @@ body{
 }
 .dig-mark{
     text-align: center;
-    width:100%;
-    margin:40px;
+    width:calc(100% - 60px);
+    padding:30px;
 }
 .dig-mark h6{
     color:#0458e9;
@@ -349,4 +349,81 @@ body{
 .dig-mark h2{
     color:#100739;
     font-weight: 900;;
+}
+.dig-text{
+    margin:50px 0px 0px 0px;
+}
+.pricing-row{
+    width:calc(100% - 40px);
+    padding:20px;
+    display:flex;
+}
+.pricing{
+    width:calc(33.333% - 40px);
+    padding:20px;
+    text-align:center;
+    
+}
+.inter{
+    background-color:#e2ecf7;
+    padding:20px;
+    border-radius:10px;
+}
+.pricing-img{
+    width:calc(100% - 20px);
+    padding:10px;
+}
+.amt{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.dollar{
+    padding:16px 6px 0px 0px;
+    font-size:20px;
+    color:#100739;
+}
+.month{
+    padding:16px 0px 0px 6px;
+    font-size:20px;
+    color:#100739;
+}
+.amount{
+    font-size:30px;
+    color:#100739;
+}
+
+.getstarted-button{
+    width:100%;
+}
+.getstarted{
+    margin:auto;
+    padding:10px;
+    width:calc(50% - 20px);
+    color:white;
+    background-color:#0458e9;
+    border:none;
+    border-radius:20px;
+}
+.pro-incl{
+    color:#100739;
+}
+.abt-pro{
+    color:#100739;
+}
+.features ul{
+    list-style-type: none;
+    padding:0;
+}
+.feature{
+    color:#100739;
+    padding:0px 0px 0px 10px;
+}
+.features i{
+    color:#0458e9;
+}
+.features {
+    text-align:left;
+    line-height: 2.5;
+    padding:10px;
 }
