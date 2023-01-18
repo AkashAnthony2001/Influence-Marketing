@@ -466,3 +466,123 @@ body{
     font-size:14px;
     line-height:1.7;
 }
+.blog-cont{
+    color:#100739;
+}
+.readmore{
+    font-size:12px;
+    color:#0046a0;
+    font-weight:bold;
+}
+.sectionfive{
+    padding:40px 0px 0px 0px;
+    background-color:white;
+}
+.container-feedback{
+    display:flex;
+    width:calc(100% - 40px);
+    padding:20px;
+}
+.feed{
+    width:calc(50% - 20px);
+    padding:10px;
+}
+.feed-image{
+    width:100%;
+}
+.feed-head{
+    padding:40px 0px 0px 0px ;
+}
+.feed-txt-one h5{
+    color:#0458e9;
+    font-weight:750;
+}
+.feed-txt-two h1{
+    font-size:30px;
+    font-weight:900;
+    color:#100739;
+}
+.feed-txt-three p{
+    color:#100739;
+    font-size:14px;
+}
+.field{
+    width:50%;
+}
+.field input{
+    padding:5px 14px;
+    font-size:15px;
+    border-color: #e2e2e2;
+}
+.fieldset{
+    display:flex;
+}
+.feedback-area textarea{
+    padding:5px 14px;
+    border-color: #e2e2e2;
+}
+.submit-button{
+    padding:10px 0px 0px 0px;
+}
+.submit-button button{
+    padding:15px 20px;
+    border-radius:50px;
+    border:none;
+    color:white;
+    background-color:#0458e9;
+}
+::placeholder{
+    color: #87898a;
+}
+.footer{
+    display:flex;
+    padding:20px;
+}
+.footer-det{
+    width:calc(33.333% - 40px);
+    padding:20px;
+    color:white;
+}
+.abt-text{
+    font-size:12px;
+    line-height: 1.7;
+}
+.links-link ul li{
+    list-style-type: none;
+    
+}
+.links-link ul{
+    padding:0;
+    line-height:2;
+    font-size:14px;
+}
+.contact-link ul li{
+    list-style-type: none;
+}
+.contact-link ul {
+    padding:0;
+    line-height:2;
+    font-size:14px;
+}
+.sub-field input{
+    width:calc(50% - 10px);
+    padding:5px;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid blue;
+}
+.sub-field button{
+    width:calc(45% - 24px);
+    padding:10px;
+    border-radius:50px;
+    background-color:#0046a0;
+    border:2px solid white;
+    color:white;
+}
+.rocket-image{
+    width:60px;
+    transform:rotate(45deg);
+}
+.rocketimg{
+    text-align: center
+}
