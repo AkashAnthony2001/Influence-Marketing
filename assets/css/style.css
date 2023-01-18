@@ -425,7 +425,7 @@ body{
 .features {
     text-align:left;
     line-height: 2.5;
-    padding:10px;
+    
 }
 .latest-blogs{
     background-color:#e2ecf7;
@@ -450,9 +450,19 @@ body{
 }
 .lat-blog{
     width:calc(33.333% - 20px);
-    padding:10px;
+    padding:20px;
 }
 .blog-img{
     width:100%;
     border-radius:10px;
+}
+.blog-textmain{
+    color:#100739
+}
+.blogdate{
+    font-size:12px;
+}
+.blog-cont{
+    font-size:14px;
+    line-height:1.7;
 }
