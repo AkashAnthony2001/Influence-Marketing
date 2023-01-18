@@ -427,3 +427,32 @@ body{
     line-height: 2.5;
     padding:10px;
 }
+.latest-blogs{
+    background-color:#e2ecf7;
+    width:calc(100% - 50px);
+    padding:30px 20px;
+}
+.row-text{
+    text-align:center;
+}
+.rowtext-one{
+    color:#0458e9;
+}
+.rowtext-two{
+    color:#100739;
+}
+.rowtext-three{
+    color:#100739;
+    font-size:15px;
+}
+.blogs{
+    display:flex;
+}
+.lat-blog{
+    width:calc(33.333% - 20px);
+    padding:10px;
+}
+.blog-img{
+    width:100%;
+    border-radius:10px;
+}
